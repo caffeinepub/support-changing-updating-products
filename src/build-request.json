@@ -1,0 +1,20 @@
+{
+  "kind": "build_request",
+  "title": "Support changing/updating products",
+  "priority": "normal",
+  "requirements": [],
+  "constraints": [
+    "Backend must remain a single Motoko actor in backend/main.mo (no additional backend services).",
+    "Do not edit files under frontend/src/hooks/useInternetIdentity.ts or .tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, or anything in frontend/src/components/ui (compose instead).",
+    "Use English for all user-facing text."
+  ],
+  "nonGoals": [
+    "Adding new product fields (e.g., images, categories, tags) not already present in the Product type.",
+    "Changing authentication providers (only Internet Identity is supported).",
+    "Adding external databases or third-party backend services."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

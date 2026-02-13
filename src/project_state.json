@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "New project",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Support changing/updating products (e.g., edit product details)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Support changing/updating products",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
